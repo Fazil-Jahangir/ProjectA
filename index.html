@@ -1,22 +1,96 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <meta charset="utf-8"/>
     <title>Project A</title>
+    
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- main.css -->
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <!-- jquery cdn -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 navbar">
+          <a href="index.html" class="logo navbar-brand text-white offset-md-2">PROJECT A</a>
+          <ul class="nav">
+            <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Champions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Weapons</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Map Locations</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Movement Guide</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Stat Tracker</a></li>
+          </ul>
+        </div>
+  
+        <!-- slider banner	 -->  
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="info">
+                  <h1>Welcome To Apex Legends Guide</h1>
+                  <p>Take your game to the next level!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                  <h1>Champion Guide</h1>
+                  <p>Learn to efficiently use the top champions of Apex Legends!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                  <h1>Weapon Guide</h1>
+                  <p>Find out which guns are overpowered and how to use them properly!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                  <h1>Map Locations</h1>
+                  <p>Find out the best drop location for good loot or high frags!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                  <h1>Movement Guide</h1>
+                  <p>Learn about the various movement tips and tricks in Apex Legends!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                  <h1>Stat Tracker</h1>
+                  <p>Find out your lifetime stats or search up your past game history!</p>
+                </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div> 
+  
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
