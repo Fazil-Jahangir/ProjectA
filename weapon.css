@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	/*
+	line-height: 1.15;	
+	font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    */
+    margin: 0;
+    padding: 0;    
+	box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    cursor: default;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #000;
+    line-height: 1.15;
+}
+p.popup
+{
+  text-align: justify;
+}
+
+
+
+/*LEAGUE OF LEGENDS WEBSITE TEMPLATE CODE: */
+/*(LINK=https://na.leagueoflegends.com/en-us/champions/)*/
+.eafTob.type-news_highlights_list.next-type-champion_list + *{
+    margin-top: -150px;
+    display: block;
+}
+.jeeVTq 
+{
+    padding: 125px 0px 35px;
+    display: block;
+}
+.dJjBCP 
+{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(1, 1, 1);
+}
+.jWvpDq 
+{
+    font-weight: normal;
+    margin: 0px;
+}
+.fmCNnE {
+    display: block;
+    font-size: 2.0rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.iLTyui {
+    text-transform: uppercase;
+    font-style: italic;
+    /*font-size: calc(61.82px + 3.03vw);*/
+    display: block;
+    font-size: 120px;
+    line-height: 0.85;
+    font-family: "Beaufort for LOL", serif;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+}
+.bSFaOt {
+    max-width: 10000px;
+    font-size: 0.875rem;
+    text-align: center;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+    padding: 0px 10%;
+    margin: 12px auto 0px;
+    font-weight: 500;
+    display: block;
+}
+
+
+
+/* NAVIGATION BAR CODE: */
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active{
+	background:#000;
+	color: rgba(255, 255, 255, 0.5);
+}
+.navbar ul.nav li:hover{
+	background:#000;
+	color: rgba(255, 255, 255, 0.5);
+}
+.navbar ul.nav li a{
+	color: #000;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a{
+    color:#fff
+}
+.navbar ul.nav li:hover a{
+	color: #fff;
+}
+

@@ -21,8 +21,13 @@
     margin-top: -150px;
     display: block;
 }
-.jeeVTq {
-    padding: 150px 0px 140px;
+p.popup
+{
+  text-align: justify;
+}
+.jeeVTq 
+{
+    padding: 125px 0px 35px;
     display: block;
 }
 .dJjBCP {
@@ -205,9 +210,6 @@ html:not(.is-safari) .klVtHm > * {
 .navbar ul.nav li:hover a{
 	color: #fff;
 }
-
-
-
 
 
 #portfolio .portfolio-item {
