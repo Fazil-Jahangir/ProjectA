@@ -17,33 +17,31 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://www.google.com/jsapi"></script>    
-    <!-- weapon.js -->
-    <script src="weapon.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>    
     <!-- bootstrap javascript cdn -->
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="jsapi"></script>
-    <script src="jquery.min.js.download"></script>
   </head>
 
   <body style="background-color:darkorange;">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 navbar">
-          <a href="index.html" class="logo navbar-brand text-white offset-md-2">PROJECT A</a>
-          <ul class="nav">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="champions.html" class="nav-link">Champions</a></li>
-            <li class="nav-item active"><a href="weapons.html" class="nav-link">Weapons</a></li>
-            <li class="nav-item"><a href="map_locations.html" class="nav-link">Map Locations</a></li>
-            <li class="nav-item"><a href="movement_guide.html" class="nav-link">Movement Guide</a></li>
-            <li class="nav-item"><a href="stat_tracker.html" class="nav-link">Stat Tracker</a></li>
-          </ul>
+    <nav class="navbar movebar"> 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 navbar">
+            <a href="index.html" class="logo navbar-brand text-white offset-md-2">PROJECT A</a>
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="champions.html" class="nav-link">Champions</a></li>
+              <li class="nav-item active"><a href="weapons.html" class="nav-link">Weapons</a></li>
+              <li class="nav-item"><a href="map_locations.html" class="nav-link">Map Locations</a></li>
+              <li class="nav-item"><a href="movement_guide.html" class="nav-link">Movement Guide</a></li>
+              <li class="nav-item"><a href="stat_tracker.html" class="nav-link">Stat Tracker</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- Header Tilte -->
     <div class="style__ProgressiveHydration-uocr3z-0 eafTob type-champion_list">
@@ -62,46 +60,114 @@
       </section>
     </div>
 
-    <a class="trigger_popup_fricc">Click here to show the popup</a>
-    <div class="hover_bkgr_fricc">
-      <span class="helper"></span>
-      <div>
-          <div class="popupCloseButton">&times;</div>
-          <p>Add any HTML content<br />inside the popup box!</p>
+    <!-- card trigger modal -->
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/520270/screenshots/6409632/r-99_4x.jpg?compress=1&resize=800x600" data-toggle="modal" data-target="#r99ModalCenter" alt="Avatar" style="width:550px;height:400px;">
+          <div class="container">
+            <h4 align="center" data-toggle="modal" data-target="#r99ModalCenter"><b>R-99</b></h4> 
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="https://cdn.dribbble.com/users/520270/screenshots/6409632/r-99_4x.jpg?compress=1&resize=800x600" alt="Avatar" style="width:550px;height:400px;">
-      <div class="container">
-        <h4 align="center"><b>R-99</b></h4> 
+      <div class="column">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/520270/screenshots/6305082/wingman.jpg" data-toggle="modal" data-target="#wingmanModalCenter" alt="Avatar" style="width:550px;height:400px;">
+          <div class="container">
+            <h4 align="center" data-toggle="modal" data-target="#wingmanModalCenter"><b>WINGMAN</b></h4> 
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/users/520270/screenshots/6353192/peacekeeper_2x.jpg" data-toggle="modal" data-target="#peacekeeperModalCenter" alt="Avatar" style="width:550px;height:400px;">
+          <div class="container">
+            <h4 align="center" data-toggle="modal" data-target="#peacekeeperModalCenter"><b>PEECEKEEPER</b></h4> 
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+    <!-- Modal -->
+    <div class="modal fade" id="r99ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">R99</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
             <!-- Project Details Go Here -->
-            <h2 class="text-uppercase">PATHFINDER</h2>
-            <p class="item-intro text-muted">The Forward Scout!</p>
-            <img class="img-fluid d-block mx-auto" src="https://i.redd.it/adaxwwuyn2r21.jpg" alt="Pathfinder" style="width:300px;height:415px;">
-            <p>Pathfinder is a very useful character to have in your squad. He does not have much in terms of abilities to keep his team alive in pressured situations but he is very good at keeping your whole team on pace, and out of danger. He can also help you get positional advantage against enemies.</p>
-            <p> </p>
-            <p>You can use your zip lines as fishing line, if you gain height advantage you can drop a line down to the bottom at a reasonable angle to see if any enemies attempt to take it. You would be surprised how many people will take the bait. Make sure you take care of them quickly before they jump off.
-              As Pathfinder you should be using a sniper rifle with a long range scope and an LMG to provide suppressive fire.
-              Use your grappling hook to drag people into Gibraltars shield dome so you can drop them quickly.
-              Drag your enemies over the edge of the map, or when they are taking the zip line at the docks you can just grab them.</p>
-            <p> </p>
-            <p>When care packages drop throw a zip line directly to it, grab it and come back. When the ring gets smaller and smaller you could have a load of zip lines sprawling in multiple directions. This will confuse the enemy squads, as it will be difficult to know which one you might take at any time or if you are even in the place they think you are. With a bunch of zip lines you could be anywhere.
-              You should know that doors can destroy a zipline, so if you were to shoot your zipline into an open door, your team can use it and then you can cover your tracks by destroying it.</p>
+            <img class="img-fluid d-block mx-auto" src="r99.jpg" alt="r99_stats" style="width:100%">
+            <p>              
+            </p>
+            <p>The R-99 is rightly feared and coveted by a majority of Apex Legends players, rightly so as the fastest-firing gun in the game. This quick and deadly SMG is capable of tearing apart a full armoured opponent in less than a second, provided you hit your shots.</p>            
             <ul class="list-inline">
               <li>Date: April 2020</li>
               <li>Category: Illustration</li>
             </ul>
-            <button class="btn btn-primary" data-dismiss="modal" type="button">
-              <i class="fas fa-times"></i>
-              Close Project</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-    </div>    
+    </div>       
+    
+    <div class="modal fade" id="wingmanModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">WINGMAN</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <img class="img-fluid d-block mx-auto" src="r99.jpg" alt="r99_stats" style="width:100%">
+            <p>              
+            </p>
+            <p>The R-99 is rightly feared and coveted by a majority of Apex Legends players, rightly so as the fastest-firing gun in the game. This quick and deadly SMG is capable of tearing apart a full armoured opponent in less than a second, provided you hit your shots.</p>            
+            <ul class="list-inline">
+              <li>Date: April 2020</li>
+              <li>Category: Illustration</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="peacekeeperModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">PEECEKEEPER</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <img class="img-fluid d-block mx-auto" src="r99.jpg" alt="r99_stats" style="width:100%">
+            <p>              
+            </p>
+            <p>The R-99 is rightly feared and coveted by a majority of Apex Legends players, rightly so as the fastest-firing gun in the game. This quick and deadly SMG is capable of tearing apart a full armoured opponent in less than a second, provided you hit your shots.</p>            
+            <ul class="list-inline">
+              <li>Date: April 2020</li>
+              <li>Category: Illustration</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
