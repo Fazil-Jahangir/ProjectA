@@ -91,7 +91,6 @@ IMG.tilt
 }
 
 
-
 /* NAVIGATION BAR CODE: */
 .navbar{
 	position: fixed;
@@ -126,5 +125,71 @@ IMG.tilt
 }
 .navbar ul.nav li:hover a{
 	color: #fff;
+}
+
+.modal-backdrop{ 
+    z-index:1; 
+  }
+  
+.modal-title{
+    text-align: center;
+}
+
+.container-1 
+{
+    display: flex;    
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+  
+.container-1
+{
+    /*border: 1px #ccc solid ; */
+    padding: 10px;
+}
+
+/*circular button*/
+.container-1 .btn {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    background-color: red;
+    display:block;
+    height: 186px;
+    width: 186px;
+    border-radius: 50%;
+    border: 1px solid red;
+    color:white;
+    text-align: center;
+}
+
+/*circular button*/
+.container-1 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    background-color: red;
+    display:block;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    border: 1px solid red;
+    color:white;
+    text-align: center;
+}
+
+.container-1 .btn:hover 
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.container-1 .btn1:hover 
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
 }
 
